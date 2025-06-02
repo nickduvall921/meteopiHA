@@ -1,0 +1,13 @@
+{
+    "domain": "vantage_weather",
+    "name": "Vantage Weather Station",
+    "documentation": "https://github.com/nickduvall921/meteopiHA",
+    "issue_tracker": "https://github.com/nickduvall921/meteopiHA/issues",
+    "codeowners": ["@nickduvall921"],
+    "requirements": ["aiohttp>=3.8.0"],
+    "iot_class": "local_polling",
+    "version": "1.0.0",
+    "config_flow": true,
+    "loggers": ["custom_components.vantage_weather"]
+  }
+  
